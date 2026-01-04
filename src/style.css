@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.container h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #056378;
+}
+
+.container button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #056378;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
