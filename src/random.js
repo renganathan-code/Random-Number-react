@@ -13,10 +13,10 @@ function Random()
         <>
         <div className="container">
             <h1>Random Number</h1>
-            <h3>Generate a random number between 1 and 100</h3>
-            <button onClick={RandomNumber}>Generate</button>
+            <h3>Generate a random number between 1 to 100</h3>
             <h1>{number}</h1>
             <h3>Generate random number is: {number}</h3>
+            <button onClick={RandomNumber}>Generate</button>
         </div>
         </>
     )

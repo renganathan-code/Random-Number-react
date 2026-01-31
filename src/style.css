@@ -3,20 +3,29 @@
     padding: 0;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+  font-family: 'Poppins', 'Inter', sans-serif;
+}
+
+
 .container{
+    background: #ffffff;
+    color: #333;
+    border-radius: 12px;
     text-align: center;
-    margin-top: 15%;
-    margin-left: 22vw;
-    margin-right: 22vw;
-    padding: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .container h1{
     margin-bottom: 10px;
     font-size: 50px;
-    color: #056378;
+    color:#056378 ;
 }
 
 .container button{
